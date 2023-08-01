@@ -1,6 +1,7 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
+    background-color: #eff0f3;
 }
 
 .flex-header {
@@ -39,13 +40,24 @@ li {
     align-items: center;
 }
 
-button {
+.btn {
     margin-top: 5%;
-    border: 3px solid black;
+    border: 3px solid #0d0d0d;
     border-radius: 6px;
     background-color: transparent;
     font-size: 2em;
-    padding: 1%;
+    padding: 1.5%;
+}
+
+.btn:hover {
+    background-color: #0d0d0d;
+    color: #fffffe;
+    transition: 0.7s;
+}
+
+.btn:active {
+    background-color:#ff8e3c;
+    transition: 0s;
 }
 
 h1 {
@@ -54,4 +66,14 @@ h1 {
     border-radius: 5px;
     padding: 1% 2%;
     font-size: 3em;
+}
+
+a {
+    background-color: transparent;
+    color: #ff8e3c;
+    text-decoration: none;
+}
+
+.color {
+    background-color: transparent;
 }
