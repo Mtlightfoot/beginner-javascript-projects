@@ -10,6 +10,7 @@
     box-shadow: 0 8px 8px -4px rgb(192, 192, 192);
     background-color: #fffffe;
     padding: 1%;
+    max-width: 100%;
 }
 
 h3 {
