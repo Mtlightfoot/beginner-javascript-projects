@@ -21,7 +21,7 @@ h3 {
 .links {
     display: flex;
     background-color: transparent;
-    gap: 25%;
+    gap: 18%;
 }
 
 ul {
@@ -41,7 +41,9 @@ li {
     margin-left: 5%;
     margin-right: 5%;
     align-items: center;
+    text-align: center;
     background-color: transparent;
+    max-width: 100%;
 }
 
 .btn {
